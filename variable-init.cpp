@@ -19,8 +19,8 @@ int initializatoin_tests()
 
 int main()
 {
-  int a, b;             // Init  2 variablex, a, b of int
-  int width { 10 };     // Width has default var of 10
+  [[maybe_unused] int a, b;             // Init  2 variablex, a, b of int
+  [[maybe_unused]] int width { 10 };     // Width has default var of 10
   a = 5;
   std::cout << a;
 
