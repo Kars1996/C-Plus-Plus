@@ -13,7 +13,7 @@ int initializatoin_tests()
   int c ( 6 );
 
   // new initialization stuff
-  int d { 7 };
+  int d { 7 }; // this is better cause it is stricter?. use this
   int e {};
 }
 
