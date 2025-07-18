@@ -2,6 +2,7 @@
     "files.associations": {
         "*.mdx": "mdx",
         "*.cp": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }
