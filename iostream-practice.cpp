@@ -15,6 +15,8 @@ int better_input()
                // pretty cool right
   std::getline(std::cin << "Please enter a phrase ", a);
   std::cout << "You inputed" << a << "\n";
+  // btw the whole "getline" shit is used to get the entire
+  // line including spaces
   return 0;
 }
 
