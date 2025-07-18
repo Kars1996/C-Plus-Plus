@@ -15,7 +15,7 @@ int better_input()
                // pretty cool right
   std::getline(std::cin << "Please enter a phrase ", a);
   std::cout << "You inputed" << a << "\n";
-  return 0
+  return 0;
 }
 
 
@@ -35,9 +35,9 @@ int main()
 
   // INPUT TIME !!!1
   std::cout << "Plz enter number ";
-  int x{};                             // empty variable init
-  std::cin >> x;                       // put user input into variable
-  std::cout << "you entered" << x << "\n";
+  int y{};                             // empty variable init
+  std::cin >> y;                       // put user input into variable
+  std::cout << "you entered" << y << "\n";
 
   return 0;
 }
